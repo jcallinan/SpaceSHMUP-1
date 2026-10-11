@@ -1,5 +1,8 @@
 # Space SHMUP
 
+## Play in Your Browser
+
+▶️ **[Play SpaceSHMUP](https://jcallinan.github.io/SpaceSHMUP-1/)**
 
 ## Game View Setup (Portrait Aspect Ratio)
 
