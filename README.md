@@ -1,5 +1,25 @@
 # Space SHMUP
 
+
+## Game View Setup (Portrait Aspect Ratio)
+
+This game is a vertical, top-down shooter, so the Game view needs a portrait aspect ratio. Unity stores custom Game view sizes on each computer rather than in the project, so you'll need to add this preset yourself the first time you open the project.
+
+1. In the **Game** pane, click the aspect ratio dropdown at the top. It probably shows **Full HD (1920x1080)** or **Free Aspect**.
+2. At the bottom of the list, click the **+** button to add a new preset.
+3. Enter the following settings:
+
+   | Setting        | Value              |
+   |----------------|--------------------|
+   | Label          | `3:4 Portrait`     |
+   | Type           | `Fixed Resolution` |
+   | Width & Height | `768` × `1024`     |
+
+4. Click **OK**.
+5. Select **3:4 Portrait (768x1024)** from the dropdown.
+
+> **Note:** You only need to do this once per computer. The preset will then be available in every Unity project on that machine.
+
 ## Project Description
 
 **Made in Unity using C# for CS 382**
